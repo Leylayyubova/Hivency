@@ -1,0 +1,1327 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1328px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.hivencyheader .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 106px;
+}
+.hivencyheader .container .logo {
+  width: 167px;
+  height: 49px;
+}
+.hivencyheader .container .logo img {
+  width: 100%;
+  height: 100%;
+}
+.hivencyheader .container .menu {
+  display: flex;
+  font-family: "Questrial", sans-serif;
+}
+.hivencyheader .container .menu li {
+  padding: 37px 16px;
+  position: relative;
+}
+.hivencyheader .container .menu li a {
+  padding-right: 6px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 32px;
+  color: #161616;
+}
+.hivencyheader .container .menu li a:hover {
+  color: #0066D9;
+}
+.hivencyheader .container .menu li i {
+  font-size: 13px;
+}
+.hivencyheader .container .menu li:first-child i {
+  color: #0066D9;
+}
+.hivencyheader .container .menu li .sub-menu {
+  display: none;
+  background-color: #ffffff;
+  text-align: left;
+  transition: all 300ms ease;
+  box-shadow: 0px 24px 64px 0px rgba(199, 206, 218, 0.25);
+  border-radius: 4px;
+  width: 272px;
+  border: 1px solid #ebeeee;
+  position: absolute;
+  top: 100%;
+  left: 0;
+}
+.hivencyheader .container .menu li .sub-menu li {
+  padding: 10px 10px;
+  border-bottom: 1px solid #f5f5f5;
+}
+.hivencyheader .container .menu li .sub-menu li a {
+  font-family: "Questrial", sans-serif;
+  transition: all 0.5s ease-out;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
+}
+.hivencyheader .container .menu li .sub-menu li a:hover {
+  color: #0066D9;
+}
+.hivencyheader .container .menu li .sub-menu:hover {
+  display: block;
+}
+.hivencyheader .container .menu li:hover .sub-menu {
+  display: block;
+}
+.hivencyheader .container .menu .hme {
+  color: #0066D9;
+}
+.hivencyheader .container .menu .pge a {
+  color: #0066D9;
+}
+.hivencyheader .container .btn {
+  border-radius: 50px;
+  width: 176px;
+  height: 60px;
+  background-color: #161616;
+  color: #ffffff;
+}
+.hivencyheader .container .btn span {
+  font-family: "Outfit", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 30px;
+}
+
+.overlay {
+  background-image: url(https://hivency.boomdevstheme.com/wp-content/uploads/2023/10/footer-gridient.png);
+  background-color: #161616;
+  height: 554px;
+}
+.overlay .ball {
+  padding-top: 120px;
+}
+.overlay .ball .container {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #3A3A41;
+  padding-bottom: 90px;
+}
+.overlay .ball .container .info {
+  font-family: "Questrial", sans-serif;
+}
+.overlay .ball .container .info .logo {
+  width: 167px;
+  height: 48px;
+  margin-bottom: 30px;
+}
+.overlay .ball .container .info .logo img {
+  width: 100%;
+  height: 100%;
+}
+.overlay .ball .container .info p {
+  color: #c7cdda;
+  margin-bottom: 30px;
+  font-size: 18px;
+}
+.overlay .ball .container .info .social {
+  display: flex;
+}
+.overlay .ball .container .info .social i {
+  margin-right: 20px;
+  color: #FFCC7E;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  border: 1px solid #FFCC7E;
+  transition: all 0.5s ease-out;
+}
+.overlay .ball .container .info .social i:hover {
+  background-color: #FFCC7E;
+  color: #000;
+}
+.overlay .ball .container .info h2 {
+  font-family: "Outfit", sans-serif;
+  font-size: 21px;
+  line-height: 26px;
+  color: #ffffff;
+  position: relative;
+  margin-bottom: 26px;
+  font-weight: 500;
+}
+.overlay .ball .container .info ul li {
+  padding-bottom: 20px;
+}
+.overlay .ball .container .info ul li a {
+  color: #c7cdda;
+  text-transform: capitalize;
+  font-size: 18px;
+  transition: all 0.5s ease-out;
+}
+.overlay .ball .container .info ul li a:hover {
+  color: #FFCC7E;
+}
+.overlay .ball .container .info .latest {
+  overflow: hidden;
+  display: flex;
+}
+.overlay .ball .container .info .latest img {
+  margin-bottom: 20px;
+  border-radius: 6px;
+  width: 70px;
+  height: 70px;
+  transition: all 0.5s ease-out;
+}
+.overlay .ball .container .info .latest img:hover {
+  transform: scale(1.1);
+}
+.overlay .ball .container .info .latest .txt {
+  padding-left: 20px;
+}
+.overlay .ball .container .info .latest .txt span {
+  font-size: 14px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  font-weight: 400;
+  gap: 8px;
+  color: #c7cdda;
+}
+.overlay .ball .container .info .latest .txt p {
+  font-family: "Outfit", sans-serif;
+  font-size: 16px;
+  line-height: 22px;
+  color: #c7cdda;
+  position: relative;
+  text-transform: capitalize;
+  font-weight: 500;
+  transition: all 0.5s ease-out;
+}
+.overlay .ball .container .info .latest .txt p:hover {
+  color: #FFCC7E;
+}
+.overlay .ball .container .info .desc {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.overlay .ball .container .info .desc i {
+  color: #fff;
+}
+.overlay .ball .container .info .desc p {
+  margin-bottom: 0;
+  color: #c7cdda;
+  font-size: 18px;
+  line-height: 24px;
+  padding-left: 20px;
+}
+.overlay .ball .container .info .desc a {
+  color: #fff;
+  padding-left: 20px;
+}
+.overlay .copyright {
+  padding: 24px 0;
+}
+.overlay .copyright .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.overlay .copyright .container p {
+  font-family: "Questrial", sans-serif;
+  color: #c7cdda;
+  font-size: 18px;
+}
+.overlay .copyright .container ul {
+  display: flex;
+}
+.overlay .copyright .container ul li a {
+  font-family: "Questrial", sans-serif;
+  padding-right: 40px;
+  font-size: 16px;
+  color: #c7cdda;
+  transition: all 0.5s ease-out;
+}
+.overlay .copyright .container ul li a:hover {
+  color: #FFCC7E;
+}
+
+.branding {
+  background-color: #F8F2F5;
+  background-image: url(https://hivency.boomdevstheme.com/wp-content/uploads/2023/10/bg.jpg);
+  padding-top: 80px;
+  background-size: cover !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  height: 808px;
+}
+.branding .container {
+  padding-top: 60px;
+  position: relative;
+}
+.branding .container .workactivity {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.branding .container .workactivity .profits {
+  background-color: #ffffff;
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  width: 192px;
+  height: 103px;
+}
+.branding .container .workactivity .profits i {
+  font-size: 30px;
+  color: #161616;
+  width: 55px;
+  height: 55px;
+  border-radius: 50px;
+  background-color: #BDEFFB;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.branding .container .workactivity .profits span {
+  margin-bottom: 2px;
+  color: #6B6B76;
+  font-family: "Questrial", sans-serif;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 23px;
+}
+.branding .container .workactivity .profits h5 {
+  line-height: 26px;
+  font-size: 24px;
+  font-family: "Outfit", sans-serif;
+  color: #161616;
+  font-weight: 500;
+}
+.branding .container .hero-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  position: absolute;
+  top: 0;
+}
+.branding .container .hero-title .short-title {
+  position: relative;
+}
+.branding .container .hero-title .short-title span {
+  border-radius: 8px;
+  background: #E6EFFF;
+  font-family: "Outfit", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 28px;
+  display: inline-block;
+  padding: 6px 12px;
+  color: #015DFF;
+}
+.branding .container .hero-title .short-title h2 {
+  font-size: 67px;
+  line-height: 74px;
+  font-weight: 500;
+  font-family: "Outfit", sans-serif;
+  color: #161616;
+  letter-spacing: -1.34px;
+}
+.branding .container .hero-title .short-title p {
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "Questrial", sans-serif;
+  color: #474747;
+  margin-bottom: 0;
+  margin-top: 14px;
+  line-height: 32px;
+}
+.branding .container .hero-title .short-title img {
+  position: absolute;
+  top: 42%;
+  left: 31%;
+}
+.branding .container .hero-title .short-title .swip {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  margin-top: 35px;
+}
+.branding .container .hero-title .short-title .swip .learn {
+  border: none;
+  border-radius: 50px 50px 50px 50px;
+  width: 172px;
+  height: 60px;
+  background-color: #FFCC7E;
+}
+.branding .container .hero-title .short-title .swip .learn .more {
+  color: #161616;
+  background-color: #FFCC7E;
+  text-align: center;
+  font-family: "Outfit", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 30.6px;
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  transition: color 0.5s ease;
+}
+.branding .container .hero-title .short-title .swip .learn .more:hover {
+  color: white;
+  background-color: #161616;
+  width: 172px;
+  height: 60px;
+  border-radius: 50px 50px 50px 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.branding .container .hero-title .short-title .swip .learn .more:hover::after {
+  transform: translateY(-100%);
+}
+.branding .container .hero-title .short-title .swip .learn .more::after {
+  content: "Learn more";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.5s ease;
+  transform: translateY(100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.branding .container .hero-title .short-title .swip .watch {
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: "Outfit", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 30.6px;
+  color: #161616;
+  background: transparent;
+  overflow: hidden;
+  position: relative;
+}
+.branding .container .hero-title .short-title .swip .watch i {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #161616;
+  font-size: 24px;
+  border-radius: 50px 50px 50px 50px;
+  background-color: #BDEFFB;
+  width: 63px;
+  height: 63px;
+  text-align: center;
+  animation: ripple 3s infinite;
+}
+.branding .container .hero-title .short-title .swip .watch:hover {
+  color: #161616;
+}
+.branding .container .hero-title .short-title .swip .watch:hover::after {
+  transform: translateY(-100%);
+}
+.branding .container .hero-title .short-title .swip .watch::after {
+  content: "Watch video";
+  position: absolute;
+  bottom: 0;
+  left: 30px;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.5s ease;
+  transform: translateY(100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.branding .container .hero-title .png {
+  width: 661px;
+  height: 648px;
+  position: relative;
+}
+.branding .container .hero-title .png img {
+  width: 100%;
+  height: 100%;
+}
+.branding .container .hero-title .png .activity {
+  width: 336px;
+  height: 214px;
+  right: 49%;
+  top: 62%;
+  position: absolute;
+}
+
+.unleashing {
+  padding: 106px 0px 93px 0px;
+}
+.unleashing .container {
+  height: 538px;
+  text-align: center;
+  position: relative;
+}
+.unleashing .container .title {
+  padding-bottom: 40px;
+}
+.unleashing .container .title span {
+  color: #015DFF;
+  background-color: #E6EFFF;
+  border-radius: 8px;
+  background: #E6EFFF;
+  font-family: "Outfit", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 28px;
+  display: inline-block;
+  padding: 6px 12px;
+}
+.unleashing .container .title h2 {
+  color: #161616;
+  font-family: "Outfit", sans-serif;
+  font-size: 50px;
+  font-weight: 500;
+  line-height: 60px;
+  letter-spacing: -1px;
+}
+.unleashing .container .title img {
+  position: absolute;
+  top: 18%;
+  right: 27%;
+}
+.unleashing .container .boxes {
+  display: flex;
+}
+.unleashing .container .boxes .box {
+  background-color: #ffffff;
+  border-radius: 16px;
+  padding: 32px;
+  box-shadow: 0px 24px 64px 0px rgba(199, 206, 218, 0.25);
+  margin-right: 32px;
+  height: 290px;
+  width: 515px;
+  padding: 32px;
+  display: flex;
+  justify-self: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  overflow: hidden;
+}
+.unleashing .container .boxes .box img {
+  position: absolute;
+  right: 0;
+  top: 0;
+  display: none;
+  transition: right 0.3s ease;
+}
+.unleashing .container .boxes .box:hover img {
+  display: block;
+}
+.unleashing .container .boxes .box i {
+  display: flex;
+  border-radius: 50px;
+  align-items: center;
+  justify-content: center;
+  background-color: #BDEFFB;
+  width: 80px;
+  height: 80px;
+  font-size: 30px;
+  transition: transform 0.5s ease;
+}
+.unleashing .container .boxes .box .fa-bolt-lightning {
+  background-color: #FFCC7E;
+}
+.unleashing .container .boxes .box .fa-dropbox {
+  background-color: #FFE3EE;
+}
+.unleashing .container .boxes .box h3 {
+  font-family: "Outfit", sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 34px;
+  color: #161616;
+  padding-top: 20px;
+}
+.unleashing .container .boxes .box p {
+  padding-top: 20px;
+  font-size: 18px;
+  line-height: 32px;
+  color: #474747;
+  font-family: "Questrial", sans-serif;
+}
+.unleashing .container .boxes .box:hover i {
+  transform: rotateY(360deg);
+}
+
+.support .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 20px;
+  position: relative;
+}
+.support .container p {
+  padding: 10px 150px;
+  border: 1px solid #E7E7E7;
+  border-radius: 50px;
+  background: #ffffff;
+  font-family: "Questrial", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 32px;
+  color: #474747;
+}
+.support .container p span {
+  color: #015DFF;
+}
+
+.solution {
+  padding: 93px 0px 106px 0px;
+}
+.solution .container {
+  background-image: url(https://hivency.boomdevstheme.com/wp-content/uploads/2023/10/bg-1.png);
+  background-repeat: no-repeat;
+  display: flex;
+}
+.solution .container .startups {
+  position: relative;
+  margin-left: 100px;
+}
+.solution .container .startups span {
+  color: #015DFF;
+  background-color: #E6EFFF;
+  border-radius: 8px;
+  background: #E6EFFF;
+  font-family: "Outfit", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 28px;
+  display: inline-block;
+  padding: 6px 12px;
+}
+.solution .container .startups h2 {
+  color: #161616;
+  font-family: "Outfit", sans-serif;
+  font-size: 50px;
+  font-weight: 500;
+  line-height: 60px;
+  letter-spacing: -1px;
+}
+.solution .container .startups img {
+  position: absolute;
+  top: 15%;
+  right: 27%;
+}
+.solution .container .startups p {
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "Questrial", sans-serif;
+  color: #474747;
+  margin-bottom: 0;
+  margin-top: 14px;
+  line-height: 32px;
+  padding: 0px 0px 30px 0px;
+}
+.solution .container .startups .icon-card {
+  display: flex;
+  justify-content: space-between;
+  width: 525px;
+}
+.solution .container .startups .icon-card .content i {
+  font-size: 30px;
+  color: #161616;
+  background-color: #FFCC7E;
+  width: 64px;
+  height: 64px;
+  display: flex;
+  border-radius: 50px;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  transition: transform 0.5s ease;
+}
+.solution .container .startups .icon-card .content .fa-mug-hot {
+  background-color: #BDEFFB;
+}
+.solution .container .startups .icon-card .content h4 {
+  font-family: "Outfit", sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 34px;
+  color: #161616;
+}
+.solution .container .startups .icon-card .content p {
+  font-family: "Questrial", sans-serif;
+  font-size: 16px;
+  line-height: 27px;
+  font-weight: 400;
+  color: #474747;
+}
+.solution .container .startups .icon-card .content:hover i {
+  transform: rotateY(360deg);
+}
+
+.immerse {
+  background-color: #FBF8EE;
+  padding: 106px 0px 120px 0px;
+}
+.immerse .container {
+  display: flex;
+  justify-content: space-between;
+}
+.immerse .container .title {
+  position: relative;
+}
+.immerse .container .title span {
+  color: #015DFF;
+  background-color: #E6EFFF;
+  border-radius: 8px;
+  background: #E6EFFF;
+  font-family: "Outfit", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 28px;
+  padding: 6px 12px;
+}
+.immerse .container .title h2 {
+  color: #161616;
+  font-family: "Outfit", sans-serif;
+  font-size: 50px;
+  font-weight: 500;
+  line-height: 60px;
+  letter-spacing: -1px;
+}
+.immerse .container .title img {
+  position: absolute;
+  left: 50%;
+}
+.immerse .container .icon {
+  width: 300px;
+  display: flex;
+  align-items: center;
+}
+.immerse .container .icon i {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  transition: 0.3s;
+  z-index: 99;
+  background-color: #ffffff;
+  box-shadow: 0px 16px 32px rgba(0, 0, 0, 0.05);
+  color: #161616;
+  font-size: 21px;
+  transition: all 0.5s ease-out;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 20px;
+}
+.immerse .container .icon i:hover {
+  background-color: #FFCC7E;
+}
+.immerse .custom {
+  margin: 0 auto;
+  max-width: 1293px;
+}
+.immerse .custom .cards {
+  margin-top: 40px;
+  display: flex;
+  justify-content: flex-end;
+}
+.immerse .custom .cards .card {
+  margin-right: 20px;
+  position: relative;
+}
+.immerse .custom .cards .card .img {
+  width: 392px;
+  height: 352px;
+}
+.immerse .custom .cards .card .img img {
+  border-radius: 16px;
+  width: 100%;
+  height: 100%;
+}
+.immerse .custom .cards .card .content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  visibility: hidden;
+  background-color: rgba(0, 0, 0, 0.7);
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+.immerse .custom .cards .card .content i {
+  position: absolute;
+  top: 37%;
+  left: 39%;
+  width: 88px;
+  height: 88px;
+  background-color: #ffffff;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #161616;
+  font-size: 30px;
+}
+.immerse .custom .cards .card .content i:hover {
+  background-color: #FFCC7E;
+}
+.immerse .custom .cards .card .content h4 {
+  position: absolute;
+  left: 10%;
+  bottom: 10%;
+  font-size: 28px;
+  line-height: 36px;
+  font-weight: 500;
+  color: #fff;
+  font-family: "Outfit", sans-serif;
+}
+.immerse .custom .cards .card:hover .content {
+  border-radius: 16px;
+  opacity: 1;
+  visibility: visible;
+}
+
+.talk {
+  background-image: url(https://hivency.boomdevstheme.com/wp-content/uploads/2023/10/testimonial-bg.jpg);
+  padding: 106px 0px 60px 0px;
+}
+.talk .mySwiper {
+  max-width: 1328px;
+  margin: 0 auto;
+}
+.talk .mySwiper .title {
+  text-align: center;
+}
+.talk .mySwiper .title span {
+  border-radius: 8px;
+  background: #E6EFFF;
+  font-family: "Outfit", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 28px;
+  display: inline-block;
+  padding: 6px 12px;
+  color: #015DFF;
+  text-align: center;
+}
+.talk .mySwiper .title h2 {
+  color: #161616;
+  font-family: "Outfit", sans-serif;
+  font-size: 50px;
+  font-weight: 500;
+  line-height: 60px;
+  letter-spacing: -1px;
+}
+.talk .mySwiper .title p {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "Questrial", sans-serif;
+  color: #474747;
+  margin-bottom: 0;
+  margin-top: 14px;
+  line-height: 32px;
+}
+.talk .mySwiper .title img {
+  margin: 20px 0;
+}
+.talk .mySwiper .swiper-wrapper .swiper-slide {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.talk .mySwiper .swiper-wrapper .swiper-slide .txt {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.talk .mySwiper .swiper-wrapper .swiper-slide .txt p {
+  font-family: "Outfit", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 34px;
+  color: #474747;
+}
+.talk .mySwiper .swiper-wrapper .swiper-slide .meta-user {
+  display: flex;
+}
+.talk .mySwiper .swiper-wrapper .swiper-slide .meta-user img {
+  margin-right: 12px;
+  width: 66px;
+  height: 66px;
+  border-radius: 50px;
+}
+.talk .mySwiper .swiper-wrapper .swiper-slide .meta-user .user-info h5 {
+  font-size: 24px;
+  line-height: 34px;
+  font-weight: 500;
+  font-family: "Outfit", sans-serif;
+  color: #161616;
+}
+.talk .mySwiper .swiper-button-next,
+.talk .mySwiper .swiper-button-prev {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  transition: 0.3s;
+  box-shadow: 0px 16px 32px rgba(0, 0, 0, 0.05);
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  color: gray;
+}
+.talk .mySwiper .swiper-button-next:hover,
+.talk .mySwiper .swiper-button-prev:hover {
+  background-color: #FFCC7E;
+}
+.talk .mySwiper .swiper-button-next {
+  margin-left: 10px;
+}
+.talk .mySwiper .swiper-button-prev {
+  margin-right: 10px;
+}
+.talk .container {
+  height: 208px;
+  margin: 80px 0px 0px 0px;
+  padding: 40px 0;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.talk .container .img {
+  display: flex;
+  height: 48px;
+}
+.talk .container .img img {
+  width: 100%;
+  height: 100%;
+  margin: 0 49px;
+  position: relative;
+  overflow: hidden;
+}
+.talk .container .img img::before {
+  content: "";
+  position: absolute;
+  color: white;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transition: top 0.6s ease;
+  z-index: 1;
+}
+.talk .container .img img:hover::before {
+  top: 0;
+}
+.talk .container .img .drop {
+  width: 163px;
+}
+.talk .container .img .data {
+  width: 179px;
+}
+.talk .container .img .google {
+  width: 114px;
+}
+.talk .container .img .trust {
+  width: 156px;
+}
+.talk .container .img .notion {
+  width: 130px;
+}
+
+.maximize {
+  background-color: #FBF8EE;
+  padding: 106px 0px 106px 0px;
+}
+.maximize .container {
+  display: flex;
+  justify-content: space-between;
+}
+.maximize .container .img {
+  width: 538px;
+  height: 603px;
+  background-image: url(https://hivency.boomdevstheme.com/wp-content/uploads/2023/10/bg.jpg);
+  border-radius: 32px;
+  position: relative;
+}
+.maximize .container .img img {
+  width: 100%;
+  height: 100%;
+}
+.maximize .container .img .status {
+  width: 200px;
+  height: 132px;
+  right: -9%;
+  top: 8%;
+  position: absolute;
+}
+.maximize .container .sub-title .megatitle {
+  position: relative;
+}
+.maximize .container .sub-title .megatitle .magic {
+  border-radius: 8px;
+  background: #E6EFFF;
+  font-family: "Outfit", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 28px;
+  display: inline-block;
+  padding: 6px 12px;
+  color: #015DFF;
+}
+.maximize .container .sub-title .megatitle h3 {
+  color: #161616;
+  font-family: "Outfit", sans-serif;
+  font-size: 50px;
+  font-weight: 500;
+  line-height: 60px;
+  letter-spacing: -1px;
+}
+.maximize .container .sub-title .megatitle p {
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "Questrial", sans-serif;
+  color: #474747;
+  margin-bottom: 0;
+  margin-top: 14px;
+  line-height: 32px;
+}
+.maximize .container .sub-title .megatitle img {
+  position: absolute;
+  top: 34%;
+  left: 48%;
+}
+.maximize .container .sub-title .items {
+  display: flex;
+  padding: 40px 0px 40px 0px;
+}
+.maximize .container .sub-title .items .counter {
+  width: 318px;
+}
+.maximize .container .sub-title .items .counter span {
+  font-size: 50px;
+  line-height: 60px;
+  font-weight: 500;
+  font-family: "Outfit", sans-serif;
+}
+.maximize .container .sub-title .items .counter p {
+  color: #474747;
+  font-family: "Questrial", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 180%;
+}
+.maximize .container .sub-title button {
+  border-radius: 50px 50px 50px 50px;
+  color: #161616;
+  padding: 16px 40px;
+  background-color: #FFCC7E;
+  text-align: center;
+  font-family: "Outfit", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 30.6px;
+  border: none;
+}
+
+.blog {
+  padding: 106px 0px 100px 0px;
+}
+.blog .container .txt {
+  position: relative;
+  text-align: center;
+}
+.blog .container .txt span {
+  border-radius: 8px;
+  background: #E6EFFF;
+  font-family: "Outfit", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 28px;
+  display: inline-block;
+  padding: 6px 12px;
+  color: #015DFF;
+  text-align: center;
+}
+.blog .container .txt h2 {
+  text-align: center;
+  font-size: 67px;
+  line-height: 74px;
+  font-weight: 500;
+  font-family: "Outfit", sans-serif;
+  color: #161616;
+  letter-spacing: -1.34px;
+}
+.blog .container .txt p {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "Questrial", sans-serif;
+  color: #474747;
+  margin-bottom: 0;
+  margin-top: 14px;
+  line-height: 32px;
+}
+.blog .container .txt img {
+  position: absolute;
+  top: 55%;
+  left: 48%;
+}
+.blog .container .cards {
+  display: flex;
+  gap: 25px;
+  margin-top: 56px;
+}
+.blog .container .cards .card .img {
+  margin-bottom: 25px;
+  width: 415px;
+  height: 270px;
+  overflow: hidden;
+}
+.blog .container .cards .card .img img {
+  transition: all 0.6s ease-out;
+  border-radius: 16px;
+  width: 100%;
+  height: 100%;
+}
+.blog .container .cards .card .img img:hover {
+  border-radius: 16px;
+  transform: scale(1.1);
+}
+.blog .container .cards .card .digital {
+  white-space: nowrap;
+  padding: 4px 12px;
+  border-radius: 8px;
+  background: #FFF0D8;
+  color: #161616;
+  font-family: "Outfit", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 140%;
+  transition: all 0.5s ease-out;
+}
+.blog .container .cards .card .digital:hover {
+  background-color: #161616;
+  color: #FFCC7E;
+}
+.blog .container .cards .card p {
+  font-size: 28px;
+  font-weight: 500;
+  margin-top: 25px;
+  font-family: "Outfit", sans-serif;
+  padding-bottom: 24px;
+  border-bottom: 1px solid #E7E7E7;
+  letter-spacing: -0.56px;
+  transition: all 0.5s ease-out;
+}
+.blog .container .cards .card p:hover {
+  color: #FFCC7E;
+}
+.blog .container .cards .card .numb {
+  display: flex;
+  padding-top: 15px;
+}
+.blog .container .cards .card .numb .date,
+.blog .container .cards .card .numb .time {
+  padding-right: 10px;
+  display: flex;
+  align-items: center;
+  color: #474747;
+}
+.blog .container .cards .card .numb .date span,
+.blog .container .cards .card .numb .time span {
+  transition: all 0.5s ease-out;
+  padding-left: 10px;
+  font-family: "Questrial", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 32px;
+  margin: 0;
+  color: #474747;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.blog .container .cards .card .numb .date i,
+.blog .container .cards .card .numb .time i {
+  transition: all 0.5s ease-out;
+}
+.blog .container .cards .card .numb .date .fa-circle,
+.blog .container .cards .card .numb .time .fa-circle {
+  font-size: 8px;
+}
+.blog .container .cards .card .numb .date:hover span,
+.blog .container .cards .card .numb .time:hover span {
+  color: #015DFF;
+}
+.blog .container .cards .card .numb .date:hover i,
+.blog .container .cards .card .numb .time:hover i {
+  color: #015DFF;
+}
+
+.accordions {
+  background-image: url(https://hivency.boomdevstheme.com/wp-content/uploads/2023/10/faq-bg.png);
+  padding: 106px 0px 106px 0px;
+}
+.accordions .container .title {
+  text-align: center;
+  margin-bottom: 40px;
+}
+.accordions .container .title span {
+  border-radius: 8px;
+  background: #E6EFFF;
+  font-family: "Outfit", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 28px;
+  padding: 6px 12px;
+  color: #015DFF;
+}
+.accordions .container .title h2 {
+  color: #161616;
+  font-family: "Outfit", sans-serif;
+  font-size: 50px;
+  font-weight: 500;
+  line-height: 60px;
+  letter-spacing: -1px;
+}
+.accordions .container .title p {
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "Questrial", sans-serif;
+  color: #474747;
+  margin-bottom: 0;
+  margin-top: 14px;
+  line-height: 32px;
+}
+.accordions .container .goals .accordion {
+  margin-bottom: 20px;
+  margin-left: 15px;
+  background-color: #fff;
+  border-radius: 12px;
+  padding: 28px;
+  font-family: "Outfit", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 28px;
+  color: #474747;
+  box-shadow: 0px 20px 40px 0px rgba(199, 206, 218, 0.2);
+  gap: 0 20px;
+  border: none;
+  width: 637px;
+}
+.accordions .container .goals .accordion .panel {
+  padding: 0 18px;
+  background-color: white;
+  display: none;
+  overflow: hidden;
+}
+.accordions .container .goals .active,
+.accordions .container .goals .accordion:hover {
+  background-color: #ccc;
+  display: block;
+}
+
+.submit {
+  padding: 120px 0px 120px 0px;
+}
+.submit .container {
+  background-color: #F0E4E4;
+  background-image: url(https://hivency.boomdevstheme.com/wp-content/uploads/2023/10/subscribe-bg.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 15px 15px 15px 15px;
+  padding: 80px 0px 80px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 497px;
+}
+.submit .container h2 {
+  color: #161616;
+  font-family: "Outfit", sans-serif;
+  font-size: 50px;
+  font-weight: 500;
+  line-height: 60px;
+  letter-spacing: -1px;
+  text-align: center;
+}
+.submit .container p {
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "Questrial", sans-serif;
+  color: #474747;
+  margin-top: 20px;
+  line-height: 32px;
+  text-align: center;
+}
+.submit .container form {
+  margin: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 644px;
+  font-family: "Questrial", sans-serif;
+}
+.submit .container form .gmail {
+  width: 644px;
+  border: none;
+  color: #778196;
+  height: 79px;
+  font-size: 18px;
+  font-weight: 400;
+  border-radius: 50px;
+  padding: 0 40px;
+}
+.submit .container form .sbmt {
+  background-color: #161616;
+  color: #ffffff;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 30px;
+  border-radius: 50px;
+  width: 174px;
+  height: 63px;
+  position: absolute;
+  right: 10px;
+  padding: 0 40px;
+}/*# sourceMappingURL=style.css.map */
